@@ -1,41 +1,49 @@
-﻿@model WebApplication1.Models.Song
+﻿@model IList<WebApplication1.Models.Song>
 
 @{
     ViewBag.Title = "Index";
 }
 
-<h2>Songs</h2>
-<table>
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.title)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.artist.stage_name)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.duration)
-        </th>
-        <th></th>
-    </tr>
-
-    @foreach (var item in ViewBag.songs)
-    {
+<h2>Музикални изпълнения</h2>
+@if (Model.Any())
+{
+    <table>
         <tr>
-            <td>
-                @item.title
-            </td>
-            <td>
-                @item.artist.stage_name
-            </td>
-            <td>
-                @item.duration
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.songID }) |
-                @Html.ActionLink("Details", "Details", new { id = item.songID }) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.songID })
-            </td>
+            <th>
+                Заглавие                                    
+            </th>
+            <th>
+                Изпълнител                                  
+            </th>
+            <th>
+                Албум                                   
+            </th>
+            <th>
+
+            </th>
         </tr>
-    }
-</table>
+
+        @foreach (var song in Model)
+        {
+            <tr>
+                <td>
+                    @song.title
+                </td>
+                <td>
+                    @song.artist.stage_name
+                </td>
+                <td>
+                    @song.album.name
+                </td>
+                <td>
+                    @song.songID
+                    @Html.ActionLink("Details", "Details", "Song", new { id = @song.songID }, null)
+                </td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <h3>В момента няма музикални изпълнения</h3>
+}

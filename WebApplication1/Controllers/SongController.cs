@@ -28,19 +28,40 @@ namespace WebApplication1.Controllers
         }
         public ViewResult Index()
         {
-            //var songs = _context.Songs.ToList();
-            ViewBag.songs = _context.Songs.ToList();
-            return View();
+            var songs = _context.Songs.ToList();
+            return View(songs);
         }
 
         public ActionResult Details(int id)
         {
-            var customer = _context.Songs.SingleOrDefault(c => c.songID == id);
+            var song = _context.Songs.SingleOrDefault(c => c.songID == id);
 
-            if (customer == null)
+            if (song == null)
                 return HttpNotFound();
 
-            return View(customer);
+            return View(song);
+        }
+
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Create(Song newSong)
+        {
+
+            if (ModelState.IsValid)
+            {
+                _context.Songs.Add(newSong);
+                _context.SaveChanges();
+
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return View(newSong);
+            }
         }
 
         public static Song XmlToObject(Type type, string xml)
