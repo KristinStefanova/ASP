@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<song song_id="69">
+  <title>asd</title>
+  <releaseYear>1995</releaseYear>
+  <genre>pop</genre>
+  <artist artist_id="67" age="25">
+    <artistStageName>aaaa</artistStageName>
+    <artistName>aaaa</artistName>
+    <gender>Male</gender>
+    <birthdate>1995-05-23</birthdate>
+    <country>Bulgaria</country>
+    <image>https://pbs.twimg.com/profile_images/1751866646/Dummies-india-twitter_400x400.jpg</image>
+  </artist>
+  <duration>251</duration>
+  <album album_id="67" releaseYear="1998" awards="Yes">
+    <albumName>alalala</albumName>
+    <albumGenre>Pop</albumGenre>
+    <numberOfTracks>12</numberOfTracks>
+    <totalDuration>36</totalDuration>
+  </album>
+  <producer producer_id="67">
+    <producerCompany>Sunrise</producerCompany>
+    <address>Sofia</address>
+    <phoneNumber>0878585214</phoneNumber>
+  </producer>
+  <lyrics>kkkkk</lyrics>
+  <music>kkkkk</music>
+  <video video_id="68">
+    <youTubeLink>https://youtu.be/Q491EC4Ivz4</youTubeLink>
+    <publishedOn>2018-06-21</publishedOn>
+    <numberOfViews>123</numberOfViews>
+    <numberOfLikes>123</numberOfLikes>
+    <numberOfDislikes>123</numberOfDislikes>
+  </video>
+</song>
