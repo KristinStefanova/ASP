@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<song song_id="61">
+  <title>Трилър</title>
+  <releaseYear>1982</releaseYear>
+  <genre>Поп</genre>
+  <artist artist_id="59" age="0">
+    <artistStageName>Майкъл Джексън</artistStageName>
+    <artistName>Майкъл Джексън</artistName>
+    <gender>Мъж</gender>
+    <birthdate>1958-08-29</birthdate>
+    <country>САЩ</country>
+    <image>https://www.sofialive.bg/media/library/May-2013/michael_jackson_828_01.jpg</image>
+  </artist>
+  <duration>202</duration>
+  <album album_id="59" releaseYear="1982" awards="Да">
+    <albumName>Трилър</albumName>
+    <albumGenre>Диско-Поп</albumGenre>
+    <numberOfTracks>12</numberOfTracks>
+    <totalDuration>59</totalDuration>
+  </album>
+  <producer producer_id="59">
+    <producerCompany>Епик Рекърдс</producerCompany>
+    <address>Токио, Япония</address>
+    <phoneNumber>001545891150</phoneNumber>
+  </producer>
+  <lyrics>Род Темпетрон</lyrics>
+  <music>Куинси Джоунс</music>
+  <video video_id="60">
+    <youTubeLink>https://www.youtube.com/embed/sOnqjkJTMaA</youTubeLink>
+    <publishedOn>2009-10-02</publishedOn>
+    <numberOfViews>477757438</numberOfViews>
+    <numberOfLikes>432005</numberOfLikes>
+    <numberOfDislikes>36897</numberOfDislikes>
+  </video>
+</song>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song song_id="5">
+    <title>Ако има рай</title>
+    <releaseYear>2004</releaseYear>
+    <genre>Поп</genre>
+	<artist artist_id="5" age="39">
+		<artistStageName>Графа</artistStageName>
+		<artistName>Владимир Ампов</artistName>
+		<gender>Мъж</gender>
+		<birthdate>1979-10-12</birthdate>
+		<country>България</country>
+		<image>http://scala.co.uk/s/wp-content/uploads/2015/08/Grafamain.jpg</image>
+	</artist>
+    <duration>243</duration>
+    <album album_id="5" awards="Да" releaseYear="2004">
+        <albumName>Ако има рай</albumName>
+        <albumGenre>Поп</albumGenre>
+        <numberOfTracks>10</numberOfTracks>
+        <totalDuration>36</totalDuration>
+    </album>
+    <producer producer_id="5">
+        <producerCompany>Жокер медиа</producerCompany>
+        <address>гр. София, ул. „Крум Попов“ 1</address>
+        <phoneNumber>029654330</phoneNumber>
+    </producer>
+    <lyrics>Владимир Кирилов Ампов</lyrics>
+    <music>Владимир Кирилов Ампов</music>
+    <video video_id="5">
+        <youTubeLink>https://www.youtube.com/embed/Oo8LpxX9kJE</youTubeLink>
+        <publishedOn>2013-04-05</publishedOn>
+        <numberOfViews>978221</numberOfViews>
+        <numberOfLikes>5500</numberOfLikes>
+        <numberOfDislikes>110</numberOfDislikes>
+    </video>
+</song>

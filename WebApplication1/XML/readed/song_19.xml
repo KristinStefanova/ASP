@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song song_id="20">
+    <title>Диамант</title>
+    <releaseYear>2012</releaseYear>
+    <genre>Денс</genre>
+	<artist artist_id="20" age="29">
+		<artistStageName>Риана</artistStageName>
+		<artistName>Риана Фенти</artistName>
+		<gender>Жена</gender>
+		<birthdate>1989-04-21</birthdate>
+		<country>Барбадос</country>
+		<image>http://p.cosmopolitan.bg/r/i/rihanna-4-1170x731-31694-636x0.jpg</image>
+	</artist>
+    <duration>168</duration>
+    <album album_id="20" awards="Не" releaseYear="2012">
+        <albumName>Диамант</albumName>
+        <albumGenre>Денс-поп</albumGenre>
+        <numberOfTracks>12</numberOfTracks>
+        <totalDuration>49</totalDuration>
+    </album>
+    <producer producer_id="20">
+        <producerCompany>Sun Studios</producerCompany>
+        <address>Дъблин, Ирландия</address>
+        <phoneNumber>00428895671</phoneNumber>
+    </producer>
+    <lyrics>Еминем</lyrics>
+    <music>Алекс да  Кид</music>
+    <video video_id="20">
+        <youTubeLink>https://www.youtube.com/watch?v=lWA2pjMjpBs</youTubeLink>
+        <publishedOn>2012-01-08</publishedOn>
+        <numberOfViews>632000000</numberOfViews>
+        <numberOfLikes>5596820</numberOfLikes>
+        <numberOfDislikes>12098</numberOfDislikes>
+    </video>
+</song>

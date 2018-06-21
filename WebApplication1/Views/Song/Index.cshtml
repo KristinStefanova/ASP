@@ -1,0 +1,41 @@
+﻿@model WebApplication1.Models.Song
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Songs</h2>
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.artist.stage_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.duration)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in ViewBag.songs)
+    {
+        <tr>
+            <td>
+                @item.title
+            </td>
+            <td>
+                @item.artist.stage_name
+            </td>
+            <td>
+                @item.duration
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.songID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.songID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.songID })
+            </td>
+        </tr>
+    }
+</table>

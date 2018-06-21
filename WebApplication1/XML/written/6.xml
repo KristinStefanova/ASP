@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<song song_id="54">
+  <title>Недей</title>
+  <releaseYear>2017</releaseYear>
+  <genre>Хип-хоп</genre>
+  <artist artist_id="52" age="19">
+    <artistStageName>Дара</artistStageName>
+    <artistName>Дарина Йотова</artistName>
+    <gender>Жена</gender>
+    <birthdate>1999-05-16</birthdate>
+    <country>България</country>
+    <image>http://www.kliuki.bg/wp-content/uploads//2017/02/dara.jpg</image>
+  </artist>
+  <duration>213</duration>
+  <album album_id="52" releaseYear="2017" awards="Не">
+    <albumName>Недей</albumName>
+    <albumGenre>Денс</albumGenre>
+    <numberOfTracks>6</numberOfTracks>
+    <totalDuration>22</totalDuration>
+  </album>
+  <producer producer_id="52">
+    <producerCompany>Верджиния Рекърдс</producerCompany>
+    <address>гр. София, ул. „Поп Богомил“ 9</address>
+    <phoneNumber>029833581</phoneNumber>
+  </producer>
+  <lyrics>Дарина Йотова</lyrics>
+  <music>Дарина Йотова</music>
+  <video video_id="53">
+    <youTubeLink>https://www.youtube.com/embed/aZC9g9F6zRM</youTubeLink>
+    <publishedOn>2017-09-29</publishedOn>
+    <numberOfViews>4527282</numberOfViews>
+    <numberOfLikes>4820</numberOfLikes>
+    <numberOfDislikes>963</numberOfDislikes>
+  </video>
+</song>

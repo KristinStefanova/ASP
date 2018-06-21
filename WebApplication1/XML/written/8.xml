@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<song song_id="56">
+  <title>Искам те</title>
+  <releaseYear>2003</releaseYear>
+  <genre>Поп</genre>
+  <artist artist_id="54" age="39">
+    <artistStageName>Графа</artistStageName>
+    <artistName>Владимир Ампов</artistName>
+    <gender>Мъж</gender>
+    <birthdate>1979-10-12</birthdate>
+    <country>България</country>
+    <image>http://scala.co.uk/s/wp-content/uploads/2015/08/Grafamain.jpg</image>
+  </artist>
+  <duration>198</duration>
+  <album album_id="54" releaseYear="2003" awards="Да">
+    <albumName>Искам те</albumName>
+    <albumGenre>Поп</albumGenre>
+    <numberOfTracks>12</numberOfTracks>
+    <totalDuration>42</totalDuration>
+  </album>
+  <producer producer_id="54">
+    <producerCompany>Жокер медиа</producerCompany>
+    <address>гр. София, ул. „Крум Попов“ 1</address>
+    <phoneNumber>029654330</phoneNumber>
+  </producer>
+  <lyrics>Владимир Кирилов Ампов</lyrics>
+  <music>Владимир Кирилов Ампов</music>
+  <video video_id="55">
+    <youTubeLink>https://www.youtube.com/embed/xDVDXrveY_s</youTubeLink>
+    <publishedOn>2012-11-04</publishedOn>
+    <numberOfViews>643262</numberOfViews>
+    <numberOfLikes>6459</numberOfLikes>
+    <numberOfDislikes>698</numberOfDislikes>
+  </video>
+</song>

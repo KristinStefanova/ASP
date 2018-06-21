@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<song song_id="48">
+  <title>Детелини</title>
+  <releaseYear>1995</releaseYear>
+  <genre>Поп</genre>
+  <artist artist_id="46" age="78">
+    <artistStageName>Лили Иванова</artistStageName>
+    <artistName>Лили Иванова</artistName>
+    <gender>Жена</gender>
+    <birthdate>1939-04-24</birthdate>
+    <country>България</country>
+    <image>https://www.marica.bg/f/news/833/640_925d81ab260a0085aed509ea3008e5bf.jpg</image>
+  </artist>
+  <duration>183</duration>
+  <album album_id="46" releaseYear="2000" awards="Да">
+    <albumName>Без правила</albumName>
+    <albumGenre>Поп</albumGenre>
+    <numberOfTracks>12</numberOfTracks>
+    <totalDuration>38</totalDuration>
+  </album>
+  <producer producer_id="46">
+    <producerCompany>Studio Ray</producerCompany>
+    <address>гр. София, бул. Цар Борис 3, 25, ет.2</address>
+    <phoneNumber>026064508</phoneNumber>
+  </producer>
+  <lyrics>Емил Димитров</lyrics>
+  <music>Емил Димитров</music>
+  <video video_id="47">
+    <youTubeLink>https://www.youtube.com/embed/7tSR_FgFClk</youTubeLink>
+    <publishedOn>2013-02-24</publishedOn>
+    <numberOfViews>1815051</numberOfViews>
+    <numberOfLikes>15051</numberOfLikes>
+    <numberOfDislikes>1851</numberOfDislikes>
+  </video>
+</song>

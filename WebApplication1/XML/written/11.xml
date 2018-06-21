@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<song song_id="59">
+  <title>Минало</title>
+  <releaseYear>2006</releaseYear>
+  <genre>Поп</genre>
+  <artist artist_id="57" age="40">
+    <artistStageName>Мария Илиева</artistStageName>
+    <artistName>Мария Илиева</artistName>
+    <gender>Жена</gender>
+    <birthdate>1978-01-30</birthdate>
+    <country>България</country>
+    <image>https://i.ytimg.com/vi/UP1rrHtX-Sg/maxresdefault.jpg</image>
+  </artist>
+  <duration>225</duration>
+  <album album_id="57" releaseYear="2006" awards="Не">
+    <albumName>Идвам към теб</albumName>
+    <albumGenre>Поп</albumGenre>
+    <numberOfTracks>10</numberOfTracks>
+    <totalDuration>106</totalDuration>
+  </album>
+  <producer producer_id="57">
+    <producerCompany>МИ Продукции</producerCompany>
+    <address>гр. София, ул. „Крум Попов“ 15</address>
+    <phoneNumber>028875330</phoneNumber>
+  </producer>
+  <lyrics>Владимир Кирилов Ампов</lyrics>
+  <music>Владимир Кирилов Ампов</music>
+  <video video_id="58">
+    <youTubeLink>https://www.youtube.com/embed/8UVcFrTdoXM</youTubeLink>
+    <publishedOn>2009-09-21</publishedOn>
+    <numberOfViews>552004</numberOfViews>
+    <numberOfLikes>9874</numberOfLikes>
+    <numberOfDislikes>878</numberOfDislikes>
+  </video>
+</song>

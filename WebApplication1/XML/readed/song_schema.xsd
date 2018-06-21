@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="song">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="title"/>
+        <xs:element ref="releaseYear"/>
+        <xs:element ref="genre"/>
+        <xs:element ref="artist"/>
+        <xs:element ref="duration"/>
+        <xs:element ref="album"/>
+        <xs:element ref="producer"/>
+        <xs:element ref="lyrics"/>
+        <xs:element ref="music"/>
+        <xs:element ref="video"/>
+      </xs:sequence>
+      <xs:attribute name="song_id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="title" type="xs:string"/>
+  <xs:element name="releaseYear" type="xs:positiveInteger"/>
+  <xs:element name="genre" type="xs:string"/>
+  <xs:element name="artist">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="artistStageName"/>
+        <xs:element ref="artistName"/>
+        <xs:element ref="gender"/>
+        <xs:element ref="birthdate"/>
+        <xs:element ref="country"/>
+        <xs:element ref="image"/>
+      </xs:sequence>
+      <xs:attribute name="age" type="xs:positiveInteger"/>
+      <xs:attribute name="artist_id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="artistStageName" type="xs:string"/>
+  <xs:element name="artistName" type="xs:string"/>
+  <xs:element name="gender" type="xs:string"/>
+  <xs:element name="birthdate" type="xs:date"/>
+  <xs:element name="country" type="xs:string"/>
+  <xs:element name="image" type="xs:anyURI"/>
+  <xs:element name="duration" type="xs:positiveInteger"/>
+  <xs:element name="album">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="albumName"/>
+        <xs:element ref="albumGenre"/>
+        <xs:element ref="numberOfTracks"/>
+        <xs:element ref="totalDuration"/>
+      </xs:sequence>
+      <xs:attribute name="album_id" use="required" type="xs:integer"/>
+      <xs:attribute name="awards" use="required" type="xs:string"/>
+      <xs:attribute name="releaseYear" use="required" type="xs:positiveInteger"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="albumName" type="xs:string"/>
+  <xs:element name="albumGenre" type="xs:string"/>
+  <xs:element name="numberOfTracks" type="xs:positiveInteger"/>
+  <xs:element name="totalDuration" type="xs:positiveInteger"/>
+  <xs:element name="producer">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="producerCompany"/>
+        <xs:element ref="address"/>
+        <xs:element ref="phoneNumber"/>
+      </xs:sequence>
+      <xs:attribute name="producer_id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="producerCompany" type="xs:string"/>
+  <xs:element name="address" type="xs:string"/>
+  <xs:element name="phoneNumber" type="xs:string"/>
+  <xs:element name="lyrics" type="xs:string"/>
+  <xs:element name="music" type="xs:string"/>
+  <xs:element name="video">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="youTubeLink"/>
+        <xs:element ref="publishedOn"/>
+        <xs:element ref="numberOfViews"/>
+        <xs:element ref="numberOfLikes"/>
+        <xs:element ref="numberOfDislikes"/>
+      </xs:sequence>
+      <xs:attribute name="video_id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="youTubeLink" type="xs:anyURI"/>
+  <xs:element name="publishedOn" type="xs:date"/>
+  <xs:element name="numberOfViews" type="xs:positiveInteger"/>
+  <xs:element name="numberOfLikes" type="xs:positiveInteger"/>
+  <xs:element name="numberOfDislikes" type="xs:positiveInteger"/>
+</xs:schema>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<song song_id="50">
+  <title>Ако си дал</title>
+  <releaseYear>1979</releaseYear>
+  <genre>Естрада</genre>
+  <artist artist_id="48" age="0">
+    <artistStageName>Емил Димитров</artistStageName>
+    <artistName>Емил Димитров</artistName>
+    <gender>Мъж</gender>
+    <birthdate>1940-12-23</birthdate>
+    <country>България</country>
+    <image>https://www.lentata.com/image_cache/4/e/8/9/7/4e8971f4a99ab072852b1b5eb67fe6566d256285.jpeg?v5</image>
+  </artist>
+  <duration>293</duration>
+  <album album_id="48" releaseYear="2002" awards="Да">
+    <albumName>Само един живот не е достатъчен</albumName>
+    <albumGenre>Естрада</albumGenre>
+    <numberOfTracks>11</numberOfTracks>
+    <totalDuration>33</totalDuration>
+  </album>
+  <producer producer_id="48">
+    <producerCompany>Балкантон</producerCompany>
+    <address>гр. София, ул.Хайдушка поляна 6</address>
+    <phoneNumber>029523701</phoneNumber>
+  </producer>
+  <lyrics>Илия Велчев</lyrics>
+  <music>Емил Димитров</music>
+  <video video_id="49">
+    <youTubeLink>https://www.youtube.com/embed/BP7WGKWPZKg</youTubeLink>
+    <publishedOn>2009-01-25</publishedOn>
+    <numberOfViews>5335566</numberOfViews>
+    <numberOfLikes>22156</numberOfLikes>
+    <numberOfDislikes>1268</numberOfDislikes>
+  </video>
+</song>

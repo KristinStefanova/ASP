@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<song song_id="11">
+    <title>Обичам начина, по които лъжеш</title>
+    <releaseYear>2010</releaseYear>
+    <genre>Поп</genre>
+	<artist artist_id="11" age="45">
+		<artistStageName>Еминем</artistStageName>
+		<artistName>Маршъл Матърс</artistName>
+		<gender>Мъж</gender>
+		<birthdate>1973-03-31</birthdate>
+		<country>САЩ</country>
+		<image>https://i1.wp.com/www.359hiphop.com/wp-content/uploads/2013/08/eminem.jpg</image>
+	</artist>
+    <duration>263</duration>
+    <album album_id="11" awards="Да" releaseYear="2010">
+        <albumName>Възстановяване</albumName>
+        <albumGenre>Хип-хоп</albumGenre>
+        <numberOfTracks>12</numberOfTracks>
+        <totalDuration>45</totalDuration>
+    </album>
+    <producer producer_id="11">
+        <producerCompany>Sun Studios</producerCompany>
+        <address>Дъблин, Ирландия</address>
+        <phoneNumber>00428895671</phoneNumber>
+    </producer>
+    <lyrics>Еминем</lyrics>
+    <music>Алекс да  Кид</music>
+    <video video_id="11">
+        <youTubeLink>https://www.youtube.com/embed/uelHwf8o7_U</youTubeLink>
+        <publishedOn>2010-08-05</publishedOn>
+        <numberOfViews>1457715926</numberOfViews>
+        <numberOfLikes>545000</numberOfLikes>
+        <numberOfDislikes>12365</numberOfDislikes>
+    </video>
+</song>

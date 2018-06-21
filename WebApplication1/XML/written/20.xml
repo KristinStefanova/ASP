@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<song song_id="68">
+  <title>Внимание</title>
+  <releaseYear>2017</releaseYear>
+  <genre>Поп</genre>
+  <artist artist_id="66" age="31">
+    <artistStageName>Чарли Пат</artistStageName>
+    <artistName>Чарли Пат</artistName>
+    <gender>Мъж</gender>
+    <birthdate>1987-06-17</birthdate>
+    <country>САЩ</country>
+    <image>https://en.lyrsense.com/images/artists/en_charlie_puth.jpg</image>
+  </artist>
+  <duration>187</duration>
+  <album album_id="66" releaseYear="2017" awards="Не">
+    <albumName>Внимание</albumName>
+    <albumGenre>Денс-поп</albumGenre>
+    <numberOfTracks>10</numberOfTracks>
+    <totalDuration>48</totalDuration>
+  </album>
+  <producer producer_id="66">
+    <producerCompany>Уарнер Брос</producerCompany>
+    <address>Бърбанк, Калифорния, САЩ</address>
+    <phoneNumber>001207375600</phoneNumber>
+  </producer>
+  <lyrics>Чарли Пат</lyrics>
+  <music>Джеймс Дон</music>
+  <video video_id="67">
+    <youTubeLink>https://www.youtube.com/watch?v=nfs8NYg7yQM</youTubeLink>
+    <publishedOn>2017-04-24</publishedOn>
+    <numberOfViews>765820456</numberOfViews>
+    <numberOfLikes>4569321</numberOfLikes>
+    <numberOfDislikes>45321</numberOfDislikes>
+  </video>
+</song>
