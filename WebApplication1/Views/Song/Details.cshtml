@@ -1,0 +1,37 @@
+﻿@model WebApplication1.Models.Song
+
+@{
+    ViewBag.Title = "Details";
+}
+
+
+<h2>Детайли</h2>
+<div style="background-color:rgba(240, 240, 240, 0.6); height:240; width: 75%; border: 2px solid black; margin: auto; margin-bottom: 5px;">
+    <iframe style="float:left; width:320px; height:240px;" src=@Model.video.link></iframe>
+    <p style="margin-left: 340px;">
+        @Model.title - @Model.artist.stage_name, @Model.year
+    </p>
+    <p style="margin-left: 340px;">
+        Текст: @Model.lyrics
+    </p>
+    <p style="margin-left: 340px;">
+        Музика: @Model.music
+    </p>
+    <p style="margin-left: 340px;">
+        Информация за изпълнител: @Model.artist.name, @Model.artist.age год, @Model.artist.birthdate, @Model.artist.country
+    </p>
+    <p style="margin-left: 340px;">
+        Албум: @Model.album.name - @Model.album.year
+    </p>
+    <p style="margin-left: 340px;">
+        Продуцент: @Model.producer.name
+    </p>
+    <p style="margin-left: 340px;">
+        Видео: Гледания @Model.video.views
+    </p>
+    <p style="margin-left: 340px;">
+        Харесвания @Model.video.likes Нехаресвания @Model.video.dislikes
+    </p>
+</div>
+
+

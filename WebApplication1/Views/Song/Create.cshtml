@@ -1,0 +1,60 @@
+﻿@model WebApplication1.Models.Song
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Добавете ново музикално изпълнение</h2>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <hr />
+    @Html.ValidationSummary(true)
+
+    <div class="form-group">
+        <div class="col-md-10">
+            Заглавие
+            @Html.EditorFor(model => model.title)
+            @Html.ValidationMessageFor(model => model.title)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.year, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.year)
+            @Html.ValidationMessageFor(model => model.year)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.genre, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.genre)
+            @Html.ValidationMessageFor(model => model.genre)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.title, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.title)
+            @Html.ValidationMessageFor(model => model.title)
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Create" class="btn btn-default" />
+        </div>
+    </div>
+</div>
+}
+
