@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<song song_id="223">
+  <title>Чужди усмивки</title>
+  <releaseYear>2018</releaseYear>
+  <genre>Поп</genre>
+  <artist artist_id="221" age="31">
+    <artistStageName>Тото</artistStageName>
+    <artistName>Йонислав Йотов</artistName>
+    <gender>Мъж</gender>
+    <birthdate>1987-02-26</birthdate>
+    <country>България</country>
+    <image>https://www.vibes.bg/wp-content/uploads/2016/03/1-8.jpg</image>
+  </artist>
+  <duration>187</duration>
+  <album album_id="221" releaseYear="2018" awards="Не">
+    <albumName>Чужди усмивки</albumName>
+    <albumGenre>Поп</albumGenre>
+    <numberOfTracks>6</numberOfTracks>
+    <totalDuration>36</totalDuration>
+  </album>
+  <producer producer_id="221">
+    <producerCompany>Верджиния Рекърдс</producerCompany>
+    <address>гр. София, ул. „Поп Богомил“ 9</address>
+    <phoneNumber>029833581</phoneNumber>
+  </producer>
+  <lyrics>Йонислав Йотов</lyrics>
+  <music>Йонислав Йотов</music>
+  <video video_id="222">
+    <youTubeLink>https://www.youtube.com/watch?v=Lez48XNEViM</youTubeLink>
+    <publishedOn>2018-06-01</publishedOn>
+    <numberOfViews>3200000</numberOfViews>
+    <numberOfLikes>32645</numberOfLikes>
+    <numberOfDislikes>986</numberOfDislikes>
+  </video>
+</song>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<song song_id="217">
+  <title>Готов ли си</title>
+  <releaseYear>2017</releaseYear>
+  <genre>Поп</genre>
+  <artist artist_id="215" age="29">
+    <artistStageName>Тейлъв Суифт</artistStageName>
+    <artistName>Тейлър Суифт</artistName>
+    <gender>Жена</gender>
+    <birthdate>1988-11-29</birthdate>
+    <country>САЩ</country>
+    <image>http://www.razkritia.com/wp-content/uploads/2017/12/Taylor-Swift.jpg</image>
+  </artist>
+  <duration>197</duration>
+  <album album_id="215" releaseYear="2017" awards="Не">
+    <albumName>Репутация</albumName>
+    <albumGenre>Поп</albumGenre>
+    <numberOfTracks>11</numberOfTracks>
+    <totalDuration>85</totalDuration>
+  </album>
+  <producer producer_id="215">
+    <producerCompany>Big Machine Records</producerCompany>
+    <address>Нашвил, Тенеси, САЩ</address>
+    <phoneNumber>0019523701</phoneNumber>
+  </producer>
+  <lyrics>Макс Мартин</lyrics>
+  <music>Али Паями</music>
+  <video video_id="216">
+    <youTubeLink>https://www.youtube.com/embed/wIft-t-MQuE</youTubeLink>
+    <publishedOn>2017-10-26</publishedOn>
+    <numberOfViews>155289257</numberOfViews>
+    <numberOfLikes>1504000</numberOfLikes>
+    <numberOfDislikes>52000</numberOfDislikes>
+  </video>
+</song>

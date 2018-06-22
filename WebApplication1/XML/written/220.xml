@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<song song_id="220">
+  <title>Нови Правила</title>
+  <releaseYear>2017</releaseYear>
+  <genre>Денс</genre>
+  <artist artist_id="218" age="20">
+    <artistStageName>Дуа Липа</artistStageName>
+    <artistName>Дуа Липа</artistName>
+    <gender>Жена</gender>
+    <birthdate>1997-11-02</birthdate>
+    <country>Албания</country>
+    <image>https://www.famousbirthdays.com/headshots/dua-lipa-2.jpg</image>
+  </artist>
+  <duration>224</duration>
+  <album album_id="218" releaseYear="2017" awards="Не">
+    <albumName>Нови Правила</albumName>
+    <albumGenre>Денс</albumGenre>
+    <numberOfTracks>10</numberOfTracks>
+    <totalDuration>114</totalDuration>
+  </album>
+  <producer producer_id="218">
+    <producerCompany>Уарнер Брос</producerCompany>
+    <address>Бърбанк, Калифорния, САЩ</address>
+    <phoneNumber>001207375600</phoneNumber>
+  </producer>
+  <lyrics>Каролина Айлин</lyrics>
+  <music>Иан Киркпатрик</music>
+  <video video_id="219">
+    <youTubeLink>https://www.youtube.com/embed/k2qgadSvNyU</youTubeLink>
+    <publishedOn>2017-07-07</publishedOn>
+    <numberOfViews>870887036</numberOfViews>
+    <numberOfLikes>604201</numberOfLikes>
+    <numberOfDislikes>12379</numberOfDislikes>
+  </video>
+</song>

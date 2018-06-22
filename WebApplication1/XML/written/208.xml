@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<song song_id="208">
+  <title>Огън от любов</title>
+  <releaseYear>2000</releaseYear>
+  <genre>Поп</genre>
+  <artist artist_id="206" age="63">
+    <artistStageName>Силвия Кацарова</artistStageName>
+    <artistName>Силвия Кацарова</artistName>
+    <gender>Жена</gender>
+    <birthdate>1954-04-26</birthdate>
+    <country>България</country>
+    <image>https://i.ytimg.com/vi/kgvC6QDVJ4U/hqdefault.jpg</image>
+  </artist>
+  <duration>209</duration>
+  <album album_id="206" releaseYear="2000" awards="Не">
+    <albumName>Златни дуети</albumName>
+    <albumGenre>Поп</albumGenre>
+    <numberOfTracks>12</numberOfTracks>
+    <totalDuration>41</totalDuration>
+  </album>
+  <producer producer_id="206">
+    <producerCompany>Bulgarian Music Company</producerCompany>
+    <address>гр. София, ул. Кресна 8</address>
+    <phoneNumber>0887591687</phoneNumber>
+  </producer>
+  <lyrics>Ваньо Вълчев</lyrics>
+  <music>Тончо Русев</music>
+  <video video_id="207">
+    <youTubeLink>https://www.youtube.com/embed/KWbcL08g_68</youTubeLink>
+    <publishedOn>2010-02-08</publishedOn>
+    <numberOfViews>1401847</numberOfViews>
+    <numberOfLikes>4000</numberOfLikes>
+    <numberOfDislikes>145</numberOfDislikes>
+  </video>
+</song>

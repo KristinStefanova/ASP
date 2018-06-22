@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<song song_id="212">
+  <title>Още малко</title>
+  <releaseYear>2012</releaseYear>
+  <genre>Денс</genre>
+  <artist artist_id="210" age="0">
+    <artistStageName>Орлин</artistStageName>
+    <artistName>Орлин Павлов</artistName>
+    <gender>Мъж</gender>
+    <birthdate>1983-09-26</birthdate>
+    <country>България</country>
+    <image>http://www.jenatadnes.com/wp-content/uploads/2016/10/orlin.jpg</image>
+  </artist>
+  <duration>230</duration>
+  <album album_id="210" releaseYear="2012" awards="Не">
+    <albumName>Още малко</albumName>
+    <albumGenre>Денс</albumGenre>
+    <numberOfTracks>10</numberOfTracks>
+    <totalDuration>31</totalDuration>
+  </album>
+  <producer producer_id="210">
+    <producerCompany>Студио Рептила</producerCompany>
+    <address>гр. София, бул. Цар Борис 3</address>
+    <phoneNumber>028895671</phoneNumber>
+  </producer>
+  <lyrics>Гери Турийска</lyrics>
+  <music>Крум Георгиев</music>
+  <video video_id="211">
+    <youTubeLink>https://www.youtube.com/embed/QA6bA-XFlqU</youTubeLink>
+    <publishedOn>2017-12-13</publishedOn>
+    <numberOfViews>2500536</numberOfViews>
+    <numberOfLikes>4520</numberOfLikes>
+    <numberOfDislikes>369</numberOfDislikes>
+  </video>
+</song>
